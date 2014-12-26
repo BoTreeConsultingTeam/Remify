@@ -20,6 +20,16 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+
+#CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access.
+gem 'cancan'
+
+#Devise is a flexible authentication solution for Rails
+gem 'devise'
+
+#Paperclip is an easy file attachment library for Active Record
+gem "paperclip", "~> 4.2"
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
